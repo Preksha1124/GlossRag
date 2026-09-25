@@ -3,6 +3,7 @@
 A hybrid 3D-CNN-LSTM vision classifier coupled with a Retrieval-Augmented Generation (RAG) correction layer that turns broken, gloss-order sign-language output into grammatically natural spoken sentences.
 
 **Sign2Talk** turns recognized sign-language glosses into natural spoken sentences through a dedicated retrieval-augmented correction stage.
+**Why "Sign2Talk":** the name states the actual technical contribution — a *gloss* classifier feeding a *RAG* correction stage — rather than a generic "sign + talk" label. A name search turned up no existing sign-language product, paper, or repo using it, unlike names built around "sign" + "talk"/"translate," which are heavily used already (see Related Work below).
 
 ## Related work this project positions against
 
