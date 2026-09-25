@@ -47,7 +47,7 @@ export function HomeScreen() {
     <SafeAreaView style={styles.safeArea}>
       <ScrollView contentContainerStyle={styles.scrollContent}>
         <View style={styles.header}>
-          <Text style={styles.title}>GlossRAG</Text>
+          <Text style={styles.title}>Sign2Talk</Text>
           <Text style={styles.subtitle}>Sign language, translated in context.</Text>
         </View>
 

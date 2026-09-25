@@ -236,7 +236,7 @@ export default function App() {
     <div className="min-h-screen bg-canvas px-6 py-8 md:px-10 lg:px-16">
       <header className="mx-auto mb-8 flex max-w-6xl items-center justify-between">
         <div>
-          <h1 className="text-xl font-semibold text-ink">GlossRAG</h1>
+          <h1 className="text-xl font-semibold text-ink">Sign2Talk</h1>
           <p className="text-sm text-slate/70">
             Continuous sign language translation, corrected in context.
           </p>

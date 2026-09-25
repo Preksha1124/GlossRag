@@ -1,8 +1,8 @@
-# GlossRAG: A Hybrid 3D-CNN-LSTM and Retrieval-Augmented Generation Framework for Contextual Post-Processing and Syntactic Alignment in Continuous Sign Language Translation
+# Sign2Talk: A Hybrid 3D-CNN-LSTM and Retrieval-Augmented Generation Framework for Contextual Post-Processing and Syntactic Alignment in Continuous Sign Language Translation
 
 A hybrid 3D-CNN-LSTM vision classifier coupled with a Retrieval-Augmented Generation (RAG) correction layer that turns broken, gloss-order sign-language output into grammatically natural spoken sentences.
 
-**Why "GlossRAG":** the name states the actual technical contribution — a *gloss* classifier feeding a *RAG* correction stage — rather than a generic "sign + talk" label. A name search turned up no existing sign-language product, paper, or repo using it, unlike names built around "sign" + "talk"/"translate," which are heavily used already (see Related Work below).
+**Sign2Talk** turns recognized sign-language glosses into natural spoken sentences through a dedicated retrieval-augmented correction stage.
 
 ## Related work this project positions against
 
@@ -10,7 +10,7 @@ A hybrid 3D-CNN-LSTM vision classifier coupled with a Retrieval-Augmented Genera
 - LLM-wrapper translators (e.g. "SignTalk 2.5") that lean on a general multimodal model's own fluency rather than a purpose-built, evaluable correction module.
 - Text-based RAG-for-glossing work (RAG applied to low-resource *text* gloss correction, e.g. Uspanteko/Arapaho glossing, Bangla gloss augmentation) — RAG for grammar correction exists, but applied to text input, not to the output of a real-time video classifier.
 
-GlossRAG's contribution is the combination: a video-native Conv3D+BiLSTM classifier whose raw gloss output is corrected by a dedicated vector-search RAG layer, evaluated as one pipeline.
+Sign2Talk's contribution is the combination: a video-native Conv3D+BiLSTM classifier whose raw gloss output is corrected by a dedicated vector-search RAG layer, evaluated as one pipeline.
 
 ## Architecture & Data Flow
 
